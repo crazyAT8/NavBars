@@ -1,0 +1,44 @@
+URL: https://www.youtube.com/watch?v=At4B7A4GOPg
+
+HTML
+- everthing wrapped in a nav* tag
+- two basic components
+    1. company name*
+        basic div
+    2. titles of the other pages on website
+        div* with a unordered list and its items
+- one thing to ignore
+    1. the 3 bars that makeup the menu symbol
+        they're actual tags not images
+            3 spans* wrapped in an anchor tag*
+
+CSS 
+- basic essentials for everything 
+- navbar is flex spaced btw
+- ul is flex row
+- get rid of the list items dots
+- style for the page titles
+- style the mobile look of the page titles with no display 
+- style the three menu bars 
+
+    media query anything less 400px
+- show the menu now
+- naturally hide the contents of the menu
+- but when it is displayed define the flex as columns
+- define the contents of the navbar
+- flex direction when active
+
+
+JS
+- variable for the toggle-button class
+    which returns an array
+- and the same thing for navbar-links class
+- add an event listener to the toggle button 
+    which will listen for a click
+        when clicked or active we want to toggle the classList from the navBarLinks
+            if the active class exists 
+                it will add it 
+            if the active class does exist 
+                it gets rid of it 
+aka
+    open and close the navbar 
