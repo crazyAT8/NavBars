@@ -54,3 +54,13 @@ button {
 button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav__links li {
+        display: block;
+        padding: 10px 0;
+    }
+}
