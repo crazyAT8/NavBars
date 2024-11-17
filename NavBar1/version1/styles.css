@@ -20,6 +20,10 @@ header {
     background-color: #24252A;
 }
 
+.cta {
+    justify-content: end;
+}
+
 .logo {
     height: 50px;
     width: 50px;
@@ -63,11 +67,6 @@ header {
 }
 
 @media (max-width: 768px) {
-    header {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
     .nav__links {
         grid-auto-flow: row;
         gap: 10px;
