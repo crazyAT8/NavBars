@@ -88,6 +88,7 @@ header {
     color: var(--main-color);
     font-size: 28px;
     margin-right: 7px;
+    white-space: nowrap;
 }
 #menu-icon {
     font-size: 35px;
@@ -139,7 +140,10 @@ header {
     .navbar a.activer {
         color: var(--text-color);
     }
-    .navbar .open {
+    .navbar.open {
         right: 2%;
+    }
+    .user {
+        white-space: nowrap;
     }
 }
