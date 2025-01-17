@@ -17,7 +17,7 @@ body {
 
 .brand-title {
     font-size: 1.5rem;
-    margin: .5rem;
+    margin: 1.5rem;
 }
 
 .navbar-links ul {
@@ -61,6 +61,10 @@ body {
 }
 
 @media (max-width: 400px) {
+    .brand-title {
+        font-size: 1.5rem;
+        margin: .5rem;
+    }
     .toggle-button {
         display: flex;
     }
