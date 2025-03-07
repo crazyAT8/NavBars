@@ -1,6 +1,6 @@
 URL: https://www.youtube.com/watch?v=At4B7A4GOPg
 
-HTML
+# h1 HTML
 - everthing wrapped in a nav* tag
 - two basic components
     1. company name*
@@ -12,7 +12,7 @@ HTML
         they're actual tags not images
             3 spans* wrapped in an anchor tag*
 
-CSS 
+# h1 CSS 
 - basic essentials for everything 
 - navbar is flex spaced btw
 - ul is flex row
@@ -29,7 +29,7 @@ CSS
 - flex direction when active
 
 
-JS
+# h1 JS
 - variable for the toggle-button class
     which returns an array
 - and the same thing for navbar-links class
